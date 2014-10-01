@@ -9,7 +9,7 @@ def Main():
 
     s.listen(1)
     c, addr = s.accept()
-    print "Connection from: " str(addr)
+    print "Connection from: " + str(addr)
     while True:
         data = c.recv(1024)
         if not data:
@@ -20,5 +20,5 @@ def Main():
         c.send(data)
     c.close
 
-if __name__ == '__main__'
+if __name__ == '__main__':
     Main()
