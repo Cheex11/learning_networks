@@ -22,3 +22,13 @@ Used by Web Broswers, Email, SSH, FTP, Etc
 
 
 
+
+.pyw
+The pyw extenison will run the script without invoking the console window - this is especially useful if your progam is GUI based. It can still be run if you rename it to .py later.
+
+
+How to connect to URL:
+    server_ip = socket.gethostbyname(URL)
+
+    You can also just find the IP using:
+        In console, type "ping URL" which will return the domain's IP address.
