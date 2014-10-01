@@ -32,3 +32,4 @@ How to connect to URL:
 
     You can also just find the IP using:
         In console, type "ping URL" which will return the domain's IP address.
+
