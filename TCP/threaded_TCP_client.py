@@ -8,7 +8,7 @@ def prompt() :
 #main function
 if __name__ == "__main__":
 
-    if(len(sys.argv) < 3) :
+    if(len(sys.argv) < 3) :i
         print 'Usage : python telnet.py hostname port'
         sys.exit()
 
@@ -51,3 +51,4 @@ if __name__ == "__main__":
                 msg = sys.stdin.readline()
                 s.send(msg)
                 prompt()
+
