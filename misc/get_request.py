@@ -2,7 +2,7 @@ import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-server = 'pythonprogramming.net'
+server = 'www.pythonprogramming.com'
 port = 80
 
 server_ip = socket.gethostbyname(server)
